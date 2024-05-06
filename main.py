@@ -8,11 +8,11 @@ ROWS = 5
 COLS = 3
 
 symbol_count = {
-    "S": 2,
-    "A": 5,
+    "S": 3,
+    "A": 6,
     "B": 7,
-    "D": 9,
-    "F": 10
+    "D": 8,
+    "F": 8
 }
 
 symbol_values = {
@@ -142,7 +142,6 @@ def main():
         if play == "q":
             break
         balance += spin(balance)
-
 
 
 
